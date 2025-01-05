@@ -5,8 +5,8 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "domain.h"
-#include "insn.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/domain.h"
 
 using namespace SBA;
 /* ------------------------------- Constraint ------------------------------- */

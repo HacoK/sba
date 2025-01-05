@@ -5,11 +5,11 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "program.h"
-#include "function.h"
-#include "block.h"
-#include "insn.h"
-#include "expr.h"
+#include "../../include/sba/program.h"
+#include "../../include/sba/function.h"
+#include "../../include/sba/block.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/expr.h"
 
 using namespace SBA;
 UnitVal uval_empty = {{AbsVal(),AbsVal(),AbsVal()},nullptr};

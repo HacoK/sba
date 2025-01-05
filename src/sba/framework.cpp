@@ -5,10 +5,10 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "framework.h"
-#include "program.h"
-#include "rtl.h"
-#include "parser.h"
+#include "../../include/sba/framework.h"
+#include "../../include/sba/program.h"
+#include "../../include/sba/rtl.h"
+#include "../../include/sba/parser.h"
 #include <cstring>
 #include <unistd.h>
 #include <caml/alloc.h>

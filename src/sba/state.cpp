@@ -5,11 +5,11 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "state.h"
-#include "function.h"
-#include "scc.h"
-#include "block.h"
-#include "insn.h"
+#include "../../include/sba/function.h"
+#include "../../include/sba/scc.h"
+#include "../../include/sba/block.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/state.h"
 
 using namespace SBA;
 

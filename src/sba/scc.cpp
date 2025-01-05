@@ -5,10 +5,10 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "scc.h"
-#include "block.h"
-#include "insn.h"
-#include "rtl.h"
+#include "../../include/sba/scc.h"
+#include "../../include/sba/block.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/rtl.h"
 
 using namespace SBA;
 /* --------------------- Strongly Connected Component ----------------------- */

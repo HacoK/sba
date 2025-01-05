@@ -5,9 +5,9 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "system.h"
-#include "framework.h"
-#include "insn.h"
+#include "../../include/sba/framework.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/system.h"
 #include <array>
 
 using std::string;

@@ -5,10 +5,10 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "parser.h"
-#include "rtl.h"
-#include "expr.h"
-#include "common.h"
+#include "../../include/sba/rtl.h"
+#include "../../include/sba/expr.h"
+#include "../../include/sba/common.h"
+#include "../../include/sba/parser.h"
 
 using namespace SBA;
 /* -------------------------------------------------------------------------- */

@@ -5,8 +5,8 @@
    Stony Brook University, Stony Brook, NY 11794.                 
 */
 
-#include "common.h"
-#include "expr.h"
+#include "../../include/sba/expr.h"
+#include "../../include/sba/common.h"
 
 using namespace SBA;
 /* -------------------------------------------------------------------------- */

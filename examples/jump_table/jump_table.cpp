@@ -6,17 +6,17 @@
 */
 
 #include <iostream>
-#include "../sba/common.h"
-#include "../sba/state.h"
-#include "../sba/domain.h"
-#include "../sba/framework.h"
-#include "../sba/program.h"
-#include "../sba/function.h"
-#include "../sba/scc.h"
-#include "../sba/block.h"
-#include "../sba/insn.h"
-#include "../sba/rtl.h"
-#include "../sba/expr.h"
+#include "../../include/sba/common.h"
+#include "../../include/sba/state.h"
+#include "../../include/sba/domain.h"
+#include "../../include/sba/framework.h"
+#include "../../include/sba/program.h"
+#include "../../include/sba/function.h"
+#include "../../include/sba/scc.h"
+#include "../../include/sba/block.h"
+#include "../../include/sba/insn.h"
+#include "../../include/sba/rtl.h"
+#include "../../include/sba/expr.h"
 
 using namespace std;
 using namespace SBA;
