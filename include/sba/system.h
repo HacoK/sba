@@ -16,6 +16,7 @@
 #include <utility>
 #include <tuple>
 #include <fstream>
+#include <cstdint>
 #include "config.h"
  
 namespace SBA {
