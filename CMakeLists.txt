@@ -31,5 +31,6 @@ add_executable(jump_table examples/jump_table/jump_table.cpp
                ${CMAKE_CURRENT_BINARY_DIR}/lift.o)
 
 target_compile_features(jump_table PRIVATE cxx_std_20)
+target_include_directories(jump_table PRIVATE /usr/lib/ocaml/)
 target_link_directories(jump_table PRIVATE /usr/lib/ocaml/)
 target_link_libraries(jump_table PRIVATE asmrun_shared camlstr)
