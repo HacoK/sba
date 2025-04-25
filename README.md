@@ -1,6 +1,8 @@
-# SBA: Static Binary Analysis Framework
+# SBA: Scalable Binary Analysis Framework
 
-## What A Static Binary Analysis Framework Should Do?
+## Major improvements and new features coming soon!!!
+
+## What A Binary Analysis Framework Should Do?
   * Reduce implementation effort for individual analysis
     - Only 250 LoCs in C++ to implement an analysis for validating function properties.
   * Highly configurable
