@@ -1,16 +1,36 @@
 # SBA: Scalable Binary Analysis Framework
 
-## Major improvements and new features coming soon!!!
+## Announcements
+We are planning a major overhaul for the SBA framework, starting from June 2025:
+* Framework
+  - Superset disassembly:
+    - Leverage GNU libraries, e.g., `libopcodes`, `libbfd`, and `libsframe`
+    - Avoid performance cost of assembly syntax conversion
+  - Framework API
+    - Improve ControlFlowGraphAPI
+    - Improve AnalysisAPI
+  - Scalability
+    - Load/unload binary raw bytes, metadata
+    - Improve RTL parser
+* Applications
+  - Jump table analysis
+    - Improve bounds analysis
+  - Function properties
+    - Callee-saved registers preservation
+    - Invalid pointer dereference
+  - Non-returning call analysis
+* Novel binary analysis techniques
+  - To be announced!
 
 ## What A Binary Analysis Framework Should Do?
-  * Reduce implementation effort for individual analysis
-    - Only 250 LoCs in C++ to implement an analysis for validating function properties.
-  * Highly configurable
-    - An abstract interpretation based framework that allows user to define abstract domains and configure instruction evaluation.
-  * Sound and precise reasoning about stack memory
-    - A stack memory model at byte-level granularity, and sound and efficient approximations for imprecise updates on stack.
-  * Architecture-neutral
-    - Decouple analysis from architecture specifics such as assembly languages and ABI specifications.
+* Reduce implementation effort for individual analysis
+  - Only 250 LoCs in C++ to implement an analysis for validating function properties.
+* Highly configurable
+  - An abstract interpretation based framework that allows user to define abstract domains and configure instruction evaluation.
+* Sound and precise reasoning about stack memory
+  - A stack memory model at byte-level granularity, and sound and efficient approximations for imprecise updates on stack.
+* Architecture-neutral
+  - Decouple analysis from architecture specifics such as assembly languages and ABI specifications.
 
 ## Getting Started
 ### Dependencies
